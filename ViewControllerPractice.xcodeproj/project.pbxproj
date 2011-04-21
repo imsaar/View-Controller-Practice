@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF2E1F6C136075D100CFA3DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2E1F6B136075D100CFA3DB /* UIKit.framework */; };
+		CF2E1F6E136075D100CFA3DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2E1F6D136075D100CFA3DB /* Foundation.framework */; };
+		CF2E1F70136075D100CFA3DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2E1F6F136075D100CFA3DB /* CoreGraphics.framework */; };
+		CF2E1F76136075D100CFA3DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF2E1F74136075D100CFA3DB /* InfoPlist.strings */; };
+		CF2E1F79136075D100CFA3DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2E1F78136075D100CFA3DB /* main.m */; };
+		CF2E1F7C136075D100CFA3DB /* ViewControllerPracticeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2E1F7B136075D100CFA3DB /* ViewControllerPracticeAppDelegate.m */; };
+		CF2E1F7F136075D100CFA3DB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF2E1F7D136075D100CFA3DB /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF2E1F67136075D100CFA3DB /* ViewControllerPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewControllerPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2E1F6B136075D100CFA3DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CF2E1F6D136075D100CFA3DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF2E1F6F136075D100CFA3DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF2E1F73136075D100CFA3DB /* ViewControllerPractice-Info.plist */ = {isa = PBXFileReference; path = "ViewControllerPractice-Info.plist"; sourceTree = "<group>"; };
+		CF2E1F75136075D100CFA3DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF2E1F77136075D100CFA3DB /* ViewControllerPractice-Prefix.pch */ = {isa = PBXFileReference; path = "ViewControllerPractice-Prefix.pch"; sourceTree = "<group>"; };
+		CF2E1F78136075D100CFA3DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF2E1F7A136075D100CFA3DB /* ViewControllerPracticeAppDelegate.h */ = {isa = PBXFileReference; path = ViewControllerPracticeAppDelegate.h; sourceTree = "<group>"; };
+		CF2E1F7B136075D100CFA3DB /* ViewControllerPracticeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerPracticeAppDelegate.m; sourceTree = "<group>"; };
+		CF2E1F7E136075D100CFA3DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF2E1F64136075D100CFA3DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2E1F6C136075D100CFA3DB /* UIKit.framework in Frameworks */,
+				CF2E1F6E136075D100CFA3DB /* Foundation.framework in Frameworks */,
+				CF2E1F70136075D100CFA3DB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF2E1F5C136075D100CFA3DB = {
+			isa = PBXGroup;
+			children = (
+				CF2E1F71136075D100CFA3DB /* ViewControllerPractice */,
+				CF2E1F6A136075D100CFA3DB /* Frameworks */,
+				CF2E1F68136075D100CFA3DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF2E1F68136075D100CFA3DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF2E1F67136075D100CFA3DB /* ViewControllerPractice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF2E1F6A136075D100CFA3DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF2E1F6B136075D100CFA3DB /* UIKit.framework */,
+				CF2E1F6D136075D100CFA3DB /* Foundation.framework */,
+				CF2E1F6F136075D100CFA3DB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF2E1F71136075D100CFA3DB /* ViewControllerPractice */ = {
+			isa = PBXGroup;
+			children = (
+				CF2E1F7A136075D100CFA3DB /* ViewControllerPracticeAppDelegate.h */,
+				CF2E1F7B136075D100CFA3DB /* ViewControllerPracticeAppDelegate.m */,
+				CF2E1F7D136075D100CFA3DB /* MainWindow.xib */,
+				CF2E1F72136075D100CFA3DB /* Supporting Files */,
+			);
+			path = ViewControllerPractice;
+			sourceTree = "<group>";
+		};
+		CF2E1F72136075D100CFA3DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF2E1F73136075D100CFA3DB /* ViewControllerPractice-Info.plist */,
+				CF2E1F74136075D100CFA3DB /* InfoPlist.strings */,
+				CF2E1F77136075D100CFA3DB /* ViewControllerPractice-Prefix.pch */,
+				CF2E1F78136075D100CFA3DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF2E1F66136075D100CFA3DB /* ViewControllerPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF2E1F82136075D100CFA3DB /* Build configuration list for PBXNativeTarget "ViewControllerPractice" */;
+			buildPhases = (
+				CF2E1F63136075D100CFA3DB /* Sources */,
+				CF2E1F64136075D100CFA3DB /* Frameworks */,
+				CF2E1F65136075D100CFA3DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViewControllerPractice;
+			productName = ViewControllerPractice;
+			productReference = CF2E1F67136075D100CFA3DB /* ViewControllerPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF2E1F5E136075D100CFA3DB /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CF2E1F61136075D100CFA3DB /* Build configuration list for PBXProject "ViewControllerPractice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF2E1F5C136075D100CFA3DB;
+			productRefGroup = CF2E1F68136075D100CFA3DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF2E1F66136075D100CFA3DB /* ViewControllerPractice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF2E1F65136075D100CFA3DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2E1F76136075D100CFA3DB /* InfoPlist.strings in Resources */,
+				CF2E1F7F136075D100CFA3DB /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF2E1F63136075D100CFA3DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2E1F79136075D100CFA3DB /* main.m in Sources */,
+				CF2E1F7C136075D100CFA3DB /* ViewControllerPracticeAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF2E1F74136075D100CFA3DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF2E1F75136075D100CFA3DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CF2E1F7D136075D100CFA3DB /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF2E1F7E136075D100CFA3DB /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF2E1F80136075D100CFA3DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF2E1F81136075D100CFA3DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CF2E1F83136075D100CFA3DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViewControllerPractice/ViewControllerPractice-Prefix.pch";
+				INFOPLIST_FILE = "ViewControllerPractice/ViewControllerPractice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CF2E1F84136075D100CFA3DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViewControllerPractice/ViewControllerPractice-Prefix.pch";
+				INFOPLIST_FILE = "ViewControllerPractice/ViewControllerPractice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF2E1F61136075D100CFA3DB /* Build configuration list for PBXProject "ViewControllerPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2E1F80136075D100CFA3DB /* Debug */,
+				CF2E1F81136075D100CFA3DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF2E1F82136075D100CFA3DB /* Build configuration list for PBXNativeTarget "ViewControllerPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2E1F83136075D100CFA3DB /* Debug */,
+				CF2E1F84136075D100CFA3DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF2E1F5E136075D100CFA3DB /* Project object */;
+}
