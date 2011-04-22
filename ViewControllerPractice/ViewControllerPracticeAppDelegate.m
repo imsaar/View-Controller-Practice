@@ -9,6 +9,7 @@
 #import "ViewControllerPracticeAppDelegate.h"
 
 #import "UWOneRootViewController.h"
+#import "UWTwoViewController.h"
 
 @implementation ViewControllerPracticeAppDelegate
 
@@ -17,15 +18,40 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+  
   // Override point for customization after application launch.
+
+  /*
+  UIDevice *device = [UIDevice currentDevice];
+  [device beginGeneratingDeviceOrientationNotifications];
+  NSNotificationCenter *nc  = [NSNotificationCenter defaultCenter];
+  [nc addObserver:self selector:@selector(orientationChanged:) name:UIDeviceOrientationDidChangeNotification object:device];
+  */
+  
   UWOneRootViewController *one = [[UWOneRootViewController alloc] init];
+  UWTwoViewController *two = [[UWTwoViewController alloc] init];
+
   UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:one];
   UITabBarController *tabController = [[UITabBarController alloc] init];
-  tabController.viewControllers = [NSArray arrayWithObjects:navController, nil];
+  tabController.viewControllers = [NSArray arrayWithObjects:
+                                   navController, 
+                                   two,
+                                   nil];
   self.window.rootViewController = tabController;
+  [tabController release];
+  [navController release];
+  [one release];
+  [two release];
+  
   [self.window makeKeyAndVisible];
     return YES;
 }
+
+- (void)orientationChanged:(NSNotification *)note
+{
+	NSLog(@"Orientation  has changed: %d", [[note object] orientation]);
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

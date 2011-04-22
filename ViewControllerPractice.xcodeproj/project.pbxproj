@@ -21,6 +21,8 @@
 		CF2E1F9413621D7700CFA3DB /* UWOneRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF2E1F9213621D7700CFA3DB /* UWOneRootViewController.xib */; };
 		CF2E1F98136220BD00CFA3DB /* UWOneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2E1F96136220BD00CFA3DB /* UWOneDetailViewController.m */; };
 		CF2E1F99136220BD00CFA3DB /* UWOneDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF2E1F97136220BD00CFA3DB /* UWOneDetailViewController.xib */; };
+		CF2E1F9D136226A700CFA3DB /* UWTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2E1F9B136226A700CFA3DB /* UWTwoViewController.m */; };
+		CF2E1F9E136226A700CFA3DB /* UWTwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF2E1F9C136226A700CFA3DB /* UWTwoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,9 @@
 		CF2E1F95136220BD00CFA3DB /* UWOneDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UWOneDetailViewController.h; sourceTree = "<group>"; };
 		CF2E1F96136220BD00CFA3DB /* UWOneDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UWOneDetailViewController.m; sourceTree = "<group>"; };
 		CF2E1F97136220BD00CFA3DB /* UWOneDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UWOneDetailViewController.xib; sourceTree = "<group>"; };
+		CF2E1F9A136226A700CFA3DB /* UWTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UWTwoViewController.h; sourceTree = "<group>"; };
+		CF2E1F9B136226A700CFA3DB /* UWTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UWTwoViewController.m; sourceTree = "<group>"; };
+		CF2E1F9C136226A700CFA3DB /* UWTwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UWTwoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +103,9 @@
 				CF2E1F95136220BD00CFA3DB /* UWOneDetailViewController.h */,
 				CF2E1F96136220BD00CFA3DB /* UWOneDetailViewController.m */,
 				CF2E1F97136220BD00CFA3DB /* UWOneDetailViewController.xib */,
+				CF2E1F9A136226A700CFA3DB /* UWTwoViewController.h */,
+				CF2E1F9B136226A700CFA3DB /* UWTwoViewController.m */,
+				CF2E1F9C136226A700CFA3DB /* UWTwoViewController.xib */,
 				CF2E1F7D136075D100CFA3DB /* MainWindow.xib */,
 				CF2E1F72136075D100CFA3DB /* Supporting Files */,
 			);
@@ -172,6 +180,7 @@
 				CF2E1F8A13621C6000CFA3DB /* person+globe.jpg in Resources */,
 				CF2E1F9413621D7700CFA3DB /* UWOneRootViewController.xib in Resources */,
 				CF2E1F99136220BD00CFA3DB /* UWOneDetailViewController.xib in Resources */,
+				CF2E1F9E136226A700CFA3DB /* UWTwoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +195,7 @@
 				CF2E1F7C136075D100CFA3DB /* ViewControllerPracticeAppDelegate.m in Sources */,
 				CF2E1F9313621D7700CFA3DB /* UWOneRootViewController.m in Sources */,
 				CF2E1F98136220BD00CFA3DB /* UWOneDetailViewController.m in Sources */,
+				CF2E1F9D136226A700CFA3DB /* UWTwoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

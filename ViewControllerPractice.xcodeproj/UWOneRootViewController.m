@@ -45,8 +45,19 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+  [super viewDidLoad];
+  // Do any additional setup after loading the view from its nib.
+  UIBarButtonItem *barButton = [[UIBarButtonItem alloc] initWithTitle:@"Alert" style:UIBarButtonItemStylePlain target:self action:@selector(showAlert)];
+  self.navigationItem.rightBarButtonItem = barButton;
+  [barButton release];
+}
+                      
+- (void) showAlert
+{
+  UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Danger" message:@"Self Destruct" delegate:self cancelButtonTitle:@"Abort" otherButtonTitles:@"Hakuna Matada", @"Don't Panic", nil];
+  [alert show];
+  NSLog(@"Alert will be shown soon");
+  [alert release];
 }
 
 - (void)viewDidUnload
@@ -59,7 +70,8 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    //return (interfaceOrientation == UIInterfaceOrientationPortrait);
+  return YES;
 }
 
 - (IBAction)tapMeAction:(id)sender {

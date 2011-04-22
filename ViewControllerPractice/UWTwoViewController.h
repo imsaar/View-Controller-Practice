@@ -1,5 +1,5 @@
 //
-//  UWOneDetailViewController.h
+//  UWTwoViewController.h
 //  ViewControllerPractice
 //
 //  Created by Ali Rizvi on 4/22/11.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface UWOneDetailViewController : UIViewController <UIActionSheetDelegate> {
+@interface UWTwoViewController : UIViewController {
     
 }
 

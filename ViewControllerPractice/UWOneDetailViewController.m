@@ -40,6 +40,28 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+  UIBarButtonItem *barButton = [[UIBarButtonItem alloc] 
+                                initWithTitle:@"Action" 
+                                style:UIBarButtonItemStyleBordered 
+                                target:self 
+                                action:@selector(showAction)];
+  self.navigationItem.rightBarButtonItem = barButton;
+  [barButton release];
+}
+
+- (void)showAction
+{
+  NSLog(@"Action will be displayed");
+  UIActionSheet *action = [[UIActionSheet alloc] initWithTitle:@"Take Action" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:@"Delete" otherButtonTitles:@"Chill Out", @"Relax", nil];
+  // TODO: Find a better way for the follow showInView line
+  [action showInView:[self.view.subviews objectAtIndex:0]];
+  [action release];
+  
+}
+
+- (void) actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+  NSLog(@"Action Sheet '%@' Clicked at Index %d", actionSheet.title, buttonIndex);
 }
 
 - (void)viewDidUnload
@@ -52,7 +74,8 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    //return (interfaceOrientation == UIInterfaceOrientationPortrait);
+  return YES;
 }
 
 @end
