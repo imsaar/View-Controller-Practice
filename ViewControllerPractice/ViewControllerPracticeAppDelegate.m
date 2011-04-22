@@ -8,6 +8,8 @@
 
 #import "ViewControllerPracticeAppDelegate.h"
 
+#import "UWOneRootViewController.h"
+
 @implementation ViewControllerPracticeAppDelegate
 
 
@@ -16,6 +18,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
   // Override point for customization after application launch.
+  UWOneRootViewController *one = [[UWOneRootViewController alloc] init];
+  UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:one];
+  UITabBarController *tabController = [[UITabBarController alloc] init];
+  tabController.viewControllers = [NSArray arrayWithObjects:navController, nil];
+  self.window.rootViewController = tabController;
   [self.window makeKeyAndVisible];
     return YES;
 }

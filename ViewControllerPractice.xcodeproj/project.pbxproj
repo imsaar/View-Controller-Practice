@@ -14,6 +14,13 @@
 		CF2E1F79136075D100CFA3DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2E1F78136075D100CFA3DB /* main.m */; };
 		CF2E1F7C136075D100CFA3DB /* ViewControllerPracticeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2E1F7B136075D100CFA3DB /* ViewControllerPracticeAppDelegate.m */; };
 		CF2E1F7F136075D100CFA3DB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF2E1F7D136075D100CFA3DB /* MainWindow.xib */; };
+		CF2E1F8813621C6000CFA3DB /* 38-airplane.png in Resources */ = {isa = PBXBuildFile; fileRef = CF2E1F8513621C6000CFA3DB /* 38-airplane.png */; };
+		CF2E1F8913621C6000CFA3DB /* 103-map.png in Resources */ = {isa = PBXBuildFile; fileRef = CF2E1F8613621C6000CFA3DB /* 103-map.png */; };
+		CF2E1F8A13621C6000CFA3DB /* person+globe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF2E1F8713621C6000CFA3DB /* person+globe.jpg */; };
+		CF2E1F9313621D7700CFA3DB /* UWOneRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2E1F9113621D7700CFA3DB /* UWOneRootViewController.m */; };
+		CF2E1F9413621D7700CFA3DB /* UWOneRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF2E1F9213621D7700CFA3DB /* UWOneRootViewController.xib */; };
+		CF2E1F98136220BD00CFA3DB /* UWOneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2E1F96136220BD00CFA3DB /* UWOneDetailViewController.m */; };
+		CF2E1F99136220BD00CFA3DB /* UWOneDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF2E1F97136220BD00CFA3DB /* UWOneDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +28,22 @@
 		CF2E1F6B136075D100CFA3DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CF2E1F6D136075D100CFA3DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CF2E1F6F136075D100CFA3DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CF2E1F73136075D100CFA3DB /* ViewControllerPractice-Info.plist */ = {isa = PBXFileReference; path = "ViewControllerPractice-Info.plist"; sourceTree = "<group>"; };
+		CF2E1F73136075D100CFA3DB /* ViewControllerPractice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewControllerPractice-Info.plist"; sourceTree = "<group>"; };
 		CF2E1F75136075D100CFA3DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CF2E1F77136075D100CFA3DB /* ViewControllerPractice-Prefix.pch */ = {isa = PBXFileReference; path = "ViewControllerPractice-Prefix.pch"; sourceTree = "<group>"; };
+		CF2E1F77136075D100CFA3DB /* ViewControllerPractice-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewControllerPractice-Prefix.pch"; sourceTree = "<group>"; };
 		CF2E1F78136075D100CFA3DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CF2E1F7A136075D100CFA3DB /* ViewControllerPracticeAppDelegate.h */ = {isa = PBXFileReference; path = ViewControllerPracticeAppDelegate.h; sourceTree = "<group>"; };
+		CF2E1F7A136075D100CFA3DB /* ViewControllerPracticeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerPracticeAppDelegate.h; sourceTree = "<group>"; };
 		CF2E1F7B136075D100CFA3DB /* ViewControllerPracticeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerPracticeAppDelegate.m; sourceTree = "<group>"; };
 		CF2E1F7E136075D100CFA3DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CF2E1F8513621C6000CFA3DB /* 38-airplane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "38-airplane.png"; sourceTree = "<group>"; };
+		CF2E1F8613621C6000CFA3DB /* 103-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "103-map.png"; sourceTree = "<group>"; };
+		CF2E1F8713621C6000CFA3DB /* person+globe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "person+globe.jpg"; sourceTree = "<group>"; };
+		CF2E1F9013621D7700CFA3DB /* UWOneRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UWOneRootViewController.h; path = ViewControllerPractice.xcodeproj/UWOneRootViewController.h; sourceTree = SOURCE_ROOT; };
+		CF2E1F9113621D7700CFA3DB /* UWOneRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UWOneRootViewController.m; path = ViewControllerPractice.xcodeproj/UWOneRootViewController.m; sourceTree = SOURCE_ROOT; };
+		CF2E1F9213621D7700CFA3DB /* UWOneRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UWOneRootViewController.xib; path = ViewControllerPractice.xcodeproj/UWOneRootViewController.xib; sourceTree = SOURCE_ROOT; };
+		CF2E1F95136220BD00CFA3DB /* UWOneDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UWOneDetailViewController.h; sourceTree = "<group>"; };
+		CF2E1F96136220BD00CFA3DB /* UWOneDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UWOneDetailViewController.m; sourceTree = "<group>"; };
+		CF2E1F97136220BD00CFA3DB /* UWOneDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UWOneDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +90,14 @@
 		CF2E1F71136075D100CFA3DB /* ViewControllerPractice */ = {
 			isa = PBXGroup;
 			children = (
+				CF2E1F9213621D7700CFA3DB /* UWOneRootViewController.xib */,
+				CF2E1F9013621D7700CFA3DB /* UWOneRootViewController.h */,
+				CF2E1F9113621D7700CFA3DB /* UWOneRootViewController.m */,
 				CF2E1F7A136075D100CFA3DB /* ViewControllerPracticeAppDelegate.h */,
 				CF2E1F7B136075D100CFA3DB /* ViewControllerPracticeAppDelegate.m */,
+				CF2E1F95136220BD00CFA3DB /* UWOneDetailViewController.h */,
+				CF2E1F96136220BD00CFA3DB /* UWOneDetailViewController.m */,
+				CF2E1F97136220BD00CFA3DB /* UWOneDetailViewController.xib */,
 				CF2E1F7D136075D100CFA3DB /* MainWindow.xib */,
 				CF2E1F72136075D100CFA3DB /* Supporting Files */,
 			);
@@ -85,6 +107,9 @@
 		CF2E1F72136075D100CFA3DB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CF2E1F8513621C6000CFA3DB /* 38-airplane.png */,
+				CF2E1F8613621C6000CFA3DB /* 103-map.png */,
+				CF2E1F8713621C6000CFA3DB /* person+globe.jpg */,
 				CF2E1F73136075D100CFA3DB /* ViewControllerPractice-Info.plist */,
 				CF2E1F74136075D100CFA3DB /* InfoPlist.strings */,
 				CF2E1F77136075D100CFA3DB /* ViewControllerPractice-Prefix.pch */,
@@ -142,6 +167,11 @@
 			files = (
 				CF2E1F76136075D100CFA3DB /* InfoPlist.strings in Resources */,
 				CF2E1F7F136075D100CFA3DB /* MainWindow.xib in Resources */,
+				CF2E1F8813621C6000CFA3DB /* 38-airplane.png in Resources */,
+				CF2E1F8913621C6000CFA3DB /* 103-map.png in Resources */,
+				CF2E1F8A13621C6000CFA3DB /* person+globe.jpg in Resources */,
+				CF2E1F9413621D7700CFA3DB /* UWOneRootViewController.xib in Resources */,
+				CF2E1F99136220BD00CFA3DB /* UWOneDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +184,8 @@
 			files = (
 				CF2E1F79136075D100CFA3DB /* main.m in Sources */,
 				CF2E1F7C136075D100CFA3DB /* ViewControllerPracticeAppDelegate.m in Sources */,
+				CF2E1F9313621D7700CFA3DB /* UWOneRootViewController.m in Sources */,
+				CF2E1F98136220BD00CFA3DB /* UWOneDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,10 +220,10 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -202,10 +234,10 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 			};
